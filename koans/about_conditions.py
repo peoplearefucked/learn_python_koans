@@ -9,7 +9,7 @@ def test_start_if():
         выполняется следующий блок кода
     """
     a = 0  # Учимся объявлять все переменные вначале функции 
-    if ____:  # попробуйте такие варианты: TRUE, true, True
+    if True:  # попробуйте такие варианты: TRUE, true, True
         a = 3
     assert a == 3
 
@@ -19,7 +19,7 @@ def test_if_and_else():
         Использование конструкции if и else
     """
     a = None
-    if ____:  # попробуйте такие варианты: FALSE, false, False
+    if False:  # попробуйте такие варианты: FALSE, false, False
         a = 0
     else:
         a = 1
@@ -34,7 +34,7 @@ def test_not_in_if():
         или истиное в ложное
     """
     a = "" 
-    if not ____:
+    if not "":
         a = True
     else:
         a = False
